@@ -1,0 +1,14 @@
+# Help GitHub Linguist classify the project languages.
+*.py linguist-language=Python
+*.jsx linguist-language=JavaScript
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+
+# Do not let docs or lockfiles hide the real stack.
+docs/** linguist-documentation
+*.md linguist-documentation
+frontend/package-lock.json linguist-generated=true
+sample_data/** linguist-vendored
+backend/uploads/** linguist-vendored
+backend/processed/** linguist-vendored
