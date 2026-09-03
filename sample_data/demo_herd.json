@@ -1,0 +1,17 @@
+{
+  "label": "DEMO DATA",
+  "description": "Sample herd used by the database seeder. Not real AI detections.",
+  "animals": 12,
+  "example_alerts": [
+    {
+      "animal": "Cow #04",
+      "issue": "Low activity",
+      "risk_score": 64
+    },
+    {
+      "animal": "Cow #07",
+      "issue": "Unusually low activity",
+      "risk_score": 72
+    }
+  ]
+}

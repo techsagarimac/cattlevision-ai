@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.db
+*.sqlite3
+
+# Models (large weights — download separately)
+*.pt
+*.onnx
+*.engine
+!models/.gitkeep
+!models/README.md
+
+# Uploads / processed media
+backend/uploads/*
+backend/processed/*
+!backend/uploads/.gitkeep
+!backend/processed/.gitkeep
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.log
